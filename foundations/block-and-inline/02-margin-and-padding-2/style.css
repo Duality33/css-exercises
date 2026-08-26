@@ -1,4 +1,5 @@
 body {
+  font-size: 16px;
   background: gray;
   font-family: sans-serif;
 }
@@ -13,8 +14,22 @@ body {
 .content,
 .button-container {
   background: dodgerblue;
+  padding: 8px;
+  margin-bottom: 12px;
 }
 
 button {
   background: white;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+}  
+
+
+.button-container {
+  text-align: center;
+}
+
+.card {
+  padding: 8px;
 }
